@@ -1,0 +1,462 @@
+/* Start Variables */
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+    --main-duration: 0.5s;
+  }
+  /* End Variables */
+  /* Start Global Rules */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Work Sans', sans-serif;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  /* End Global Rules */
+  /* Start Components */
+  .special-heading {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+  }
+  .special-heading + p {
+    margin: -30px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+  }
+  @media (max-width: 767px) {
+    .special-heading {
+      font-size: 60px;
+    }
+    .special-heading + p {
+      margin-top: -20px;
+    }
+  }
+  /* End Components */
+  /* Start Header */
+  .header {
+    padding: 20px;
+  }
+  .header .container {
+    display: flex;
+     /* The default display value for most elements is block or inline.*/
+    justify-content: space-between;
+     /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
+    align-items: center;
+     /* Use the align-items property to align the items vertically.*/
+  }
+  .header .logo {
+    width: 60px;
+  }
+  .header .links {
+    position: relative;
+  }
+  .header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+  }
+  .header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 2px;
+  }
+  .header .links .icon span:first-child {
+    width: 100%;
+  }
+  .header .links .icon span:nth-child(2) {
+    width: 60%;
+    transition: var(--main-duration);
+  }
+  .header .links .icon span:last-child {
+    width: 100%;
+  }
+  .header .links ul {
+    list-style: none;
+    /*The list-style-type property specifies the type of list item marker.*/
+    margin: 0;
+    padding: 0;
+    /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+    background-color: #f6f6f6;
+    /*Sets the background color of an element.*/
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: calc(100% + 15px);
+    display: none;
+    z-index: 1;
+    /*For a positioned box, the 'z-index' property specifies the stack level of the box in the current stacking context and whether the box establishes a local stacking context.*/
+  }
+  .header .links ul::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position: absolute;
+    right: 5px;
+    /*Specifies how far an absolutely positioned box's right margin edge is offset to the left of the right edge of the box's 'containing block'.*/
+    top: -20px;
+  }
+  .header .links:hover ul {
+    display: block;
+    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+  }
+  .header .links ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: var(--main-duration);
+  }
+  .header .links ul li a:hover {
+    padding-left: 25px;
+  }
+  .header .links ul li:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+  }
+  /* End Header */
+  /* Start Landing Section */
+  .landing {
+    background-image: url(../images/landing.png.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+  }
+  .landing .intro-text {
+    position: absolute;
+    /*The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements*/
+    left: 50%;
+    top: 30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    /*A two-dimensional transformation is applied to an element through the 'transform' property. This property contains a list of transform functions similar to those allowed by SVG.*/
+    width: 320px;
+    max-width: 100%;
+    /*Allows authors to constrain content width to a certain range.*/
+  }
+  .landing .intro-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+  }
+  .landing .intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    /*Determines the block-progression dimension of the text content area of an inline box.*/
+  }
+  /* End Landing Section */
+  /* Start Features */
+  .features {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+    /*Sets the background color of an element.*/
+  }
+  .features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
+    grid-gap: 20px;
+  }
+  .features .feat {
+    padding: 20px;
+    text-align: center;
+    /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
+  }
+  .features .feat i {
+    color: var(--main-color);
+  }
+  .features .feat h3 {
+    font-weight: 800;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    margin: 30px 0;
+  }
+  .features .feat p {
+    line-height: 1.8;
+    /*Determines the block-progression dimension of the text content area of an inline box.*/
+    color: #777;
+    font-size: 17px;
+  }
+  /* End Features */
+  /* Start Services  */
+  .services {
+    padding-top: var(--section-padding);
+    /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+    padding-bottom: var(--section-padding);
+    /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+  }
+  .services .services-content {
+    display: grid;
+    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 100px;
+    /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.*/
+  }
+  .services .services-content .srv {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 767px) {
+    .services .services-content .srv {
+      flex-direction: column;
+      /*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.*/
+      text-align: center;
+      /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
+    }
+  }
+  .services .services-content .srv i {
+    color: var(--main-color);
+    /*Sets the color of an element's text*/
+    flex-basis: 60px;
+    /*Sets the flex basis.*/
+  }
+  .services .services-content .srv .text {
+    flex: 1;
+  }
+  .services .services-content .srv .text h3 {
+    margin: 0 0 20px;
+  }
+  .services .services-content .srv .text p {
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+    /*Determines the block-progression dimension of the text content area of an inline box.*/
+  }
+  .services .services-content .image {
+    text-align: center;
+    position: relative;
+    /*The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.*/
+  }
+  .services .services-content .image::before {
+    content: "";
+    /*Determines which page-based occurrence of a given element is applied to a counter or string value.*/
+    background-color: var(--secondary-color);
+    /*Sets the background color of an element.*/
+    width: 100px;
+    height: calc(100% + 100px);
+    top: -50px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    /*For a positioned box, the 'z-index' property specifies the stack level of the box in the current stacking context and whether the box establishes a local stacking context.*/
+  }
+  .services .services-content .image img {
+    width: 260px;
+  }
+  @media (max-width: 1199px) {
+    .image-column {
+      display: none;
+      /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+    }
+  }
+  /* Start Services  */
+  /* Start Portfolio */
+  .portfolio {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
+  .portfolio .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 80px;
+  }
+  .portfolio .portfolio-content .card {
+    background-color: white;
+  }
+  .portfolio .portfolio-content .card img {
+    max-width: 100%;
+  }
+  .portfolio .portfolio-content .card .info {
+    padding: 20px;
+  }
+  .portfolio .portfolio-content .card .info h3 {
+    margin: 0;
+  }
+  .portfolio .portfolio-content .card .info p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  /* End Portfolio */
+  /* Start About */
+  .about {
+    padding-top: var(--section-padding);
+    padding-bottom: calc(var(--section-padding) + 60px);
+  }
+  .about .about-content {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /*Controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.*/
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .about .about-content {
+      flex-direction: column;
+      /*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.*/
+      text-align: center;
+      /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
+    }
+  }
+  .about .about-content .image {
+    position: relative;
+    width: 250px;
+    height: 375px;
+  }
+  @media (max-width: 991px) {
+    .about .about-content .image {
+      margin: 0 auto 60px;
+    }
+  }
+  .about .about-content .image::before {
+    content: "";
+    position: absolute;
+    /*The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.*/
+    background-color: #ebeced;
+    width: 100px;
+    height: calc(100% + 80px);
+    top: -40px;
+    left: -20px;
+    z-index: -1;
+  }
+  .about .about-content .image::after {
+    top: -40px;
+    content: "";
+    position: absolute;
+    /*Shorthand property for setting border width, style and color8*/
+    width: 120px;
+    height: 300px;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+    z-index: -1;
+    right: -150px;
+  }
+  @media (max-width: 991px) {
+    .about .about-content .image::before,
+    .about .about-content .image::after {
+      display: none;
+    }
+  }
+  .about .about-content .image img {
+    max-width: 100%;
+  }
+  .about .about-content .text {
+    flex-basis: calc(100% - 500px);
+  }
+  .about .about-content .text p:first-of-type {
+    font-weight: bold;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    line-height: 2;
+    margin-bottom: 50px;
+  }
+  .about .about-content .text hr {
+    width: 50%;
+    display: inline-block;
+    border-color: var(--main-color);
+  }
+  .about .about-content .text p:last-of-type {
+    line-height: 2;
+    color: #777;
+  }
+  /* End About */
+  /* Start Contact */
+  .contact {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
+  .contact .info {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+  }
+  .contact .info .label {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+  }
+  .contact .info .link {
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  .contact .info .social {
+    display: flex;
+    justify-content: center;
+    /*Aligns flex items along the main axis of the current line of the flex container.*/
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .contact .info .social i {
+    margin-left: 10px;
+    color: var(--secondary-color);
+  }
+  @media (max-width: 767px) {
+    .contact .info .label,
+    .contact .info .link {
+      font-size: 25px;
+    }
+  }
+  /* End Contact */
+  /* Start Footer */
+  .footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+    /*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
+  }
+  .footer span {
+    font-weight: bold;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    color: var(--main-color);
+  }
+  /* End Footer */ 
