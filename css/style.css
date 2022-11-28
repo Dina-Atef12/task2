@@ -317,6 +317,7 @@
   }
   .portfolio .portfolio-content .card .info p {
     color: #777;
+    /*Sets the color of an element's text*/
     line-height: 1.6;
     /*Determines the block-progression dimension of the text content area of an inline box.*/
     margin-bottom: 0;
