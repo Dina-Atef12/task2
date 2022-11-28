@@ -10,6 +10,7 @@
   /* Start Global Rules */
   * {
     -webkit-box-sizing: border-box;
+    /*Box Model addition in CSS3*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
