@@ -181,6 +181,7 @@
   }
   .landing .intro-text p {
     font-size: 19px;
+    /*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
     line-height: 1.8;
     /* Determines the block-progression dimension of the text content area of an inline box.*/
   }
