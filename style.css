@@ -15,6 +15,7 @@
   }
   html {
     scroll-behavior: smooth;
+    /*Specifies the scrolling behavior for a scrolling box, when scrolling happens due to navigation or CSSOM scrolling APIs.*/
   }
   body {
     font-family: "Work Sans", sans-serif;
