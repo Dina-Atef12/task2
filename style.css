@@ -11,6 +11,7 @@
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    /*Box Model addition in CSS3.*/
     box-sizing: border-box;
     /*Specifies the behavior of the 'width' and 'height' properties.*/
   }
