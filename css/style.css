@@ -235,6 +235,7 @@
   }
   .services .services-content .srv {
     display: flex;
+    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     margin-bottom: 40px;
     /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
   }
