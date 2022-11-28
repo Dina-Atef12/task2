@@ -153,7 +153,7 @@
   .header .links ul li:not(:last-child) a {
     border-bottom: 1px solid #ddd;
   }
-  /* End Header */
+  /*  End Header */
   /* Start Landing Section */
   .landing {
     background-image: url(../images/landing.png.jpg);
