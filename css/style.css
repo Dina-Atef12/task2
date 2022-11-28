@@ -396,6 +396,7 @@
     width: 50%;
     display: inline-block;
     border-color: var(--main-color);
+    /*The color of the border around all four edges of an element.*/
   }
   .about .about-content .text p:last-of-type {
     line-height: 2;
