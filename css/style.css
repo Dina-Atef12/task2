@@ -300,6 +300,7 @@
   .portfolio .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
     grid-gap: 30px;
     /*Shorthand that specifies the gutters between grid columns and grid rows in one declaration. Replaced by 'gap' property.*/
     margin-top: 80px;
