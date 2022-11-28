@@ -179,6 +179,7 @@
     font-weight: bold;
     font-size: 50px;
     color: var(--main-color);
+    /*Sets the color of an element's text*/
   }
   .landing .intro-text p {
     font-size: 19px;
