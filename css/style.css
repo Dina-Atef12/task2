@@ -208,7 +208,7 @@
   }
   .features .feat h3 {
     font-weight: 800;
-    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    /* Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     margin: 30px 0;
   }
   .features .feat p {
