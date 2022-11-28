@@ -385,6 +385,7 @@
   }
   .about .about-content .text {
     flex-basis: calc(100% - 500px);
+    /*Sets the flex basis.*/
   }
   .about .about-content .text p:first-of-type {
     font-weight: bold;
