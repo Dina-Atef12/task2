@@ -378,6 +378,7 @@
     .about .about-content .image::before,
     .about .about-content .image::after {
       display: none;
+      /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     }
   }
   .about .about-content .image img {
