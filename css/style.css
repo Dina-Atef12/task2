@@ -190,7 +190,7 @@
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
-    /*Sets the background color of an element.*/
+    /* Sets the background color of an element.*/
   }
   .features .container {
     display: grid;
