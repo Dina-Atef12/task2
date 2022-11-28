@@ -450,6 +450,7 @@
     background-color: var(--secondary-color);
     color: white;
     padding: 30px 10px;
+    /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
     text-align: center;
     /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
     font-size: 18px;
