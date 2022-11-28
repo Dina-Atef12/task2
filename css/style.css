@@ -94,6 +94,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    /*Aligns flex items along the main axis of the current line of the flex container.*/
   }
   .header .links .icon span {
     background-color: #333;
