@@ -366,7 +366,7 @@
     top: -40px;
     content: "";
     position: absolute;
-    /*Shorthand property for setting border width, style and color8*/
+    /* Shorthand property for setting border width, style and color8*/
     width: 120px;
     height: 300px;
     border-left: 80px solid var(--main-color);
