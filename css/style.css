@@ -448,6 +448,7 @@
   /*  Start Footer */
   .footer {
     background-color: var(--secondary-color);
+    /*Sets the background color of an element.*/
     color: white;
     /*Sets the color of an element's text*/
     padding: 30px 10px;
