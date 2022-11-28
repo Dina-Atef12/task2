@@ -430,7 +430,7 @@
   .contact .info .social {
     display: flex;
     justify-content: center;
-    /*Aligns flex items along the main axis of the current line of the flex container.*/
+    /* Aligns flex items along the main axis of the current line of the flex container.*/
     margin-top: 20px;
     font-size: 16px;
   }
