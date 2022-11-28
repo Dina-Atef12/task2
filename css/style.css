@@ -21,6 +21,7 @@
   }
   body {
     font-family: 'Work Sans', sans-serif;
+    /*Specifies a prioritized list of font family names or generic family names. A user agent iterates through the list of family names until it matches an available font that contains a glyph for the character to be rendered.*/
   }
   .container {
     padding-left: 15px;
