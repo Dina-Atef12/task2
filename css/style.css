@@ -299,6 +299,7 @@
   }
   .portfolio .portfolio-content {
     display: grid;
+    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     /*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
     grid-gap: 30px;
