@@ -388,7 +388,7 @@
   }
   .about .about-content .text p:first-of-type {
     font-weight: bold;
-    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    /* Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     line-height: 2;
     margin-bottom: 50px;
   }
