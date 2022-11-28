@@ -37,6 +37,7 @@
   @media (min-width: 768px) {
     .container {
       width: 750px;
+      /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     }
   }
   /* Medium */
