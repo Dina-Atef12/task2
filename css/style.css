@@ -287,7 +287,7 @@
   @media (max-width: 1199px) {
     .image-column {
       display: none;
-      /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+      /* In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     }
   }
   /* Start Services  */
