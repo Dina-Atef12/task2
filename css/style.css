@@ -373,6 +373,7 @@
     border-bottom: 80px solid var(--main-color);
     z-index: -1;
     right: -150px;
+    /*Specifies how far an absolutely positioned box's right margin edge is offset to the left of the right edge of the box's 'containing block'.*/
   }
   @media (max-width: 991px) {
     .about .about-content .image::before,
