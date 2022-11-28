@@ -364,7 +364,9 @@
   }
   .about .about-content .image::after {
     top: -40px;
+    /*Specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's 'containing block'.*/
     content: "";
+    /*Determines which page-based occurrence of a given element is applied to a counter or string value.
     position: absolute;
     /* Shorthand property for setting border width, style and color8*/
     width: 120px;
