@@ -201,7 +201,7 @@
   .features .feat {
     padding: 20px;
     text-align: center;
-    /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
+    /* Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
   }
   .features .feat i {
     color: var(--main-color);
