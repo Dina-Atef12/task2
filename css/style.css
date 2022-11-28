@@ -353,6 +353,7 @@
   }
   .about .about-content .image::before {
     content: "";
+    /*Determines which page-based occurrence of a given element is applied to a counter or string value.*/
     position: absolute;
     /* The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements.*/
     background-color: #ebeced;
