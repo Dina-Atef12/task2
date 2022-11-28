@@ -108,6 +108,7 @@
   .header .links .icon span:nth-child(2) {
     width: 60%;
     transition: var(--main-duration);
+    /*Shorthand property combines four of the transition properties into a single property.*/
   }
   .header .links .icon span:last-child {
     width: 100%;
