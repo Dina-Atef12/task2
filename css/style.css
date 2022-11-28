@@ -74,7 +74,7 @@
   }
   .header .container {
     display: flex;
-     /* The default display value for most elements is block or inline.*/
+     /*  The default display value for most elements is block or inline.*/
     justify-content: space-between;
      /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     align-items: center;
