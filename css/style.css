@@ -253,6 +253,7 @@
   }
   .services .services-content .srv .text {
     flex: 1;
+    /*Specifies the components of a flexible length: the flex grow factor and flex shrink factor, and the flex basis.*/
   }
   .services .services-content .srv .text h3 {
     margin: 0 0 20px;
