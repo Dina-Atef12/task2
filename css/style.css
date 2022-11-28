@@ -382,6 +382,7 @@
   }
   .about .about-content .image img {
     max-width: 100%;
+    /*Allows authors to constrain content width to a certain range.*/
   }
   .about .about-content .text {
     flex-basis: calc(100% - 500px);
