@@ -272,7 +272,7 @@
     content: "";
     /* Determines which page-based occurrence of a given element is applied to a counter or string value.*/
     background-color: var(--secondary-color);
-    /*Sets the background color of an element.*/
+    /* Sets the background color of an element.*/
     width: 100px;
     height: calc(100% + 100px);
     top: -50px;
