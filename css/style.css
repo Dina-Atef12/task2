@@ -370,6 +370,7 @@
     width: 120px;
     height: 300px;
     border-left: 80px solid var(--main-color);
+    /*Shorthand property for setting border width, style and color*/
     border-bottom: 80px solid var(--main-color);
     /*Shorthand property for setting border width, style and color.*/
     z-index: -1;
