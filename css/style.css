@@ -305,6 +305,7 @@
   }
   .portfolio .portfolio-content .card {
     background-color: white;
+    /*Sets the background color of an element.*/
   }
   .portfolio .portfolio-content .card img {
     max-width: 100%;
