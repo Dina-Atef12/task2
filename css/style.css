@@ -112,7 +112,7 @@
   }
   .header .links ul {
     list-style: none;
-    /*The list-style-type property specifies the type of list item marker.*/
+    /* The list-style-type property specifies the type of list item marker.*/
     margin: 0;
     padding: 0;
     /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
