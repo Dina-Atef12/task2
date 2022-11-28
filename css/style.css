@@ -261,7 +261,7 @@
     color: #444;
     font-weight: 300;
     line-height: 1.6;
-    /*Determines the block-progression dimension of the text content area of an inline box.*/
+    /* Determines the block-progression dimension of the text content area of an inline box.*/
   }
   .services .services-content .image {
     text-align: center;
