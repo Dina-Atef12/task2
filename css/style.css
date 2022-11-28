@@ -260,6 +260,7 @@
   .services .services-content .srv .text p {
     color: #444;
     font-weight: 300;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     line-height: 1.6;
     /* Determines the block-progression dimension of the text content area of an inline box.*/
   }
