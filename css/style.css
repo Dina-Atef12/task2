@@ -394,6 +394,7 @@
   }
   .about .about-content .text hr {
     width: 50%;
+    /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     display: inline-block;
     /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     border-color: var(--main-color);
