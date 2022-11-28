@@ -417,6 +417,7 @@
     font-size: 35px;
     font-weight: 800;
     color: var(--secondary-color);
+    /*Sets the color of an element's text*/
     letter-spacing: -2px;
     /*Specifies the minimum, maximum, and optimal spacing between grapheme clusters.*/
     margin-bottom: 15px;
