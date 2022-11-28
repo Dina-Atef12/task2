@@ -227,7 +227,7 @@
   }
   .services .services-content {
     display: grid;
-    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
+    /* In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 30px;
     margin-top: 100px;
