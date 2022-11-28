@@ -308,6 +308,7 @@
   }
   .portfolio .portfolio-content .card img {
     max-width: 100%;
+    /*Allows authors to constrain content width to a certain range*/
   }
   .portfolio .portfolio-content .card .info {
     padding: 20px;
