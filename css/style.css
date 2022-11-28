@@ -76,7 +76,7 @@
     display: flex;
      /*  The default display value for most elements is block or inline.*/
     justify-content: space-between;
-     /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
+     /*  The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     align-items: center;
      /* Use the align-items property to align the items vertically.*/
   }
