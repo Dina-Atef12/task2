@@ -78,7 +78,7 @@
     justify-content: space-between;
      /*  The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).*/
     align-items: center;
-     /* Use the align-items property to align the items vertically.*/
+     /*Use the align-items property to align the items vertically.*/
   }
   .header .logo {
     width: 60px;
