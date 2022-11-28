@@ -13,6 +13,7 @@
     /*Box Model addition in CSS3*/
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /*Specifies the behavior of the 'width' and 'height' properties.*/
   }
   html {
     scroll-behavior: smooth;
