@@ -195,7 +195,7 @@
   .features .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    /*specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
+    /* specifies, as a space-separated track list, the line names and track sizing functions of the grid.*/
     grid-gap: 20px;
   }
   .features .feat {
