@@ -274,6 +274,7 @@
     background-color: var(--secondary-color);
     /* Sets the background color of an element.*/
     width: 100px;
+    /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     height: calc(100% + 100px);
     /*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     top: -50px;
