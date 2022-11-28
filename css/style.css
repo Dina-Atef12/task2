@@ -336,7 +336,7 @@
   @media (max-width: 991px) {
     .about .about-content {
       flex-direction: column;
-      /*Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.*/
+      /* Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.*/
       text-align: center;
       /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
     }
