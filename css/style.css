@@ -168,7 +168,7 @@
     top: 30%;
     text-align: center;
     transform: translate(-50%, -50%);
-    /*A two-dimensional transformation is applied to an element through the 'transform' property. This property contains a list of transform functions similar to those allowed by SVG.*/
+    /* A two-dimensional transformation is applied to an element through the 'transform' property. This property contains a list of transform functions similar to those allowed by SVG.*/
     width: 320px;
     max-width: 100%;
     /*Allows authors to constrain content width to a certain range.*/
