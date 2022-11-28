@@ -426,6 +426,7 @@
     font-weight: 800;
     color: var(--main-color);
     text-decoration: none;
+    /*Decorations applied to font used for an element's text.*/
   }
   .contact .info .social {
     display: flex;
