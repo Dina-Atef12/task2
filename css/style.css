@@ -416,6 +416,7 @@
   .contact .info .label {
     font-size: 35px;
     font-weight: 800;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     color: var(--secondary-color);
     /*Sets the color of an element's text*/
     letter-spacing: -2px;
