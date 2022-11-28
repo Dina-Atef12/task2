@@ -372,6 +372,7 @@
     border-left: 80px solid var(--main-color);
     border-bottom: 80px solid var(--main-color);
     z-index: -1;
+    /*For a positioned box, the 'z-index' property specifies the stack level of the box in the current stacking context and whether the box establishes a local stacking context.*/
     right: -150px;
     /*Specifies how far an absolutely positioned box's right margin edge is offset to the left of the right edge of the box's 'containing block'.*/
   }
