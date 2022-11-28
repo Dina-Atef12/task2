@@ -400,6 +400,7 @@
   .about .about-content .text p:last-of-type {
     line-height: 2;
     color: #777;
+    /*Sets the color of an element's text*/
   }
   /*  End About  */
   /*  Start Contact */
