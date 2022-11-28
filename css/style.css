@@ -345,6 +345,7 @@
     position: relative;
     width: 250px;
     height: 375px;
+    /*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
   }
   @media (max-width: 991px) {
     .about .about-content .image {
