@@ -259,6 +259,7 @@
   }
   .services .services-content .srv .text p {
     color: #444;
+    /*Sets the color of an element's text*/
     font-weight: 300;
     /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     line-height: 1.6;
