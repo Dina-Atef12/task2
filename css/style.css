@@ -247,7 +247,7 @@
   }
   .services .services-content .srv i {
     color: var(--main-color);
-    /*Sets the color of an element's text*/
+    /* Sets the color of an element's text*/
     flex-basis: 60px;
     /*Sets the flex basis.*/
   }
