@@ -361,6 +361,7 @@
     top: -40px;
     left: -20px;
     z-index: -1;
+    /*For a positioned box, the 'z-index' property specifies the stack level of the box in the current stacking context and whether the box establishes a local stacking context.*/
   }
   .about .about-content .image::after {
     top: -40px;
