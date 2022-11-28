@@ -283,6 +283,7 @@
   }
   .services .services-content .image img {
     width: 260px;
+    /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
   }
   @media (max-width: 1199px) {
     .image-column {
