@@ -59,12 +59,14 @@
     color: #ebeced;
     font-size: 100px;
     text-align: center;
+    /*Describes how inline contents of a block are horizontally aligned if the contents do not completely fill the line box.*/
     font-weight: 800;
     letter-spacing: -3px;
     margin: 0;
   }
   .special-heading + p {
     margin: -30px 0 0;
+    /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.*/
     font-size: 20px;
     text-align: center;
     color: #797979;
