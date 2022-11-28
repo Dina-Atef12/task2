@@ -170,6 +170,7 @@
     transform: translate(-50%, -50%);
     /* A two-dimensional transformation is applied to an element through the 'transform' property. This property contains a list of transform functions similar to those allowed by SVG.*/
     width: 320px;
+    /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     max-width: 100%;
     /* Allows authors to constrain content width to a certain range.*/
   }
@@ -177,6 +178,7 @@
     margin: 0;
     /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.*/
     font-weight: bold;
+    /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     font-size: 50px;
     /*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
     color: var(--main-color);
