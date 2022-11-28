@@ -329,6 +329,7 @@
   .about .about-content {
     margin-top: 100px;
     display: flex;
+    /*In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element.*/
     flex-wrap: wrap;
     /* Controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.*/
     justify-content: space-between;
