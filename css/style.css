@@ -399,6 +399,7 @@
   }
   .about .about-content .text p:last-of-type {
     line-height: 2;
+    /*Determines the block-progression dimension of the text content area of an inline box.*/
     color: #777;
     /*Sets the color of an element's text*/
   }
