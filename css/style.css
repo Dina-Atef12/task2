@@ -332,6 +332,7 @@
     flex-wrap: wrap;
     /* Controls whether the flex container is single-line or multi-line, and the direction of the cross-axis, which determines the direction new lines are stacked in.*/
     justify-content: space-between;
+    /*Aligns flex items along the main axis of the current line of the flex container.*/
   }
   @media (max-width: 991px) {
     .about .about-content {
