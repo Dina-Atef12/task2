@@ -369,6 +369,7 @@
     /* Shorthand property for setting border width, style and color8*/
     width: 120px;
     height: 300px;
+    /*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     border-left: 80px solid var(--main-color);
     /*Shorthand property for setting border width, style and color*/
     border-bottom: 80px solid var(--main-color);
