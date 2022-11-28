@@ -415,6 +415,7 @@
   }
   .contact .info .label {
     font-size: 35px;
+    /*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
     font-weight: 800;
     /*Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
     color: var(--secondary-color);
