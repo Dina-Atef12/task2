@@ -218,7 +218,7 @@
     font-size: 17px;
   }
   /* End Features  */
-  /* Start Services  */
+  /*  Start Services  */
   .services {
     padding-top: var(--section-padding);
     /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
