@@ -430,7 +430,7 @@
     top: -40px;
     /*The top property affects the vertical position of a positioned element.*/
     left: -20px;
-    /*Specifies how far an absolutely positioned box's left margin edge is offset to the right of the left edge of the box's 'containing block'.*/
+    /*The left property affects the horizontal position of a positioned element*/
     z-index: -1;
     /*The z-index property specifies the stack order of an element.*/
   }
