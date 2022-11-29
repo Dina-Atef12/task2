@@ -505,7 +505,7 @@
     padding-top: var(--section-padding);
     /*An element's padding is the space between its content and its border.*/
     padding-bottom: var(--section-padding);
-    /*An element's padding is the space between its content and its border.*/
+    /*The padding-top property sets the top padding (space) of an element.*/
     text-align: center;
     /*The text-align specifies the horizontal alignment of text in an element.*/
   }
