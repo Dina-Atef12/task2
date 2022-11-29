@@ -541,7 +541,7 @@
     margin-top: 20px;
     /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
     font-size: 16px;
-    /*Indicates the desired height of glyphs from the font. For scalable fonts, the font-size is a scale factor applied to the EM unit of the font. (Note that certain glyphs may bleed outside their EM box.) For non-scalable fonts, the font-size is converted into absolute units and matched against the declared font-size of the font, using the same absolute coordinate space for both of the matched values.*/
+    /* The font-size set the size of a font.*/
   }
   .contact .info .social i {
     margin-left: 10px;
