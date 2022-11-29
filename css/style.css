@@ -442,7 +442,7 @@
     position: absolute;
     /* Shorthand property for setting border width, style and color8*/
     width: 120px;
-    /*Specifies the width of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+    /*The width property sets the width of an element.*/
     height: 300px;
     /*Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
     border-left: 80px solid var(--main-color);
