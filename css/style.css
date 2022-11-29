@@ -545,7 +545,7 @@
   }
   .contact .info .social i {
     margin-left: 10px;
-    /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+    /*The margin-left property sets the left margin of an element.*/
     color: var(--secondary-color);
     /*Sets the color of an element's text*/
   }
