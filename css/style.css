@@ -377,7 +377,7 @@
     line-height: 1.6;
     /*Determines the block-progression dimension of the text content area of an inline box.*/
     margin-bottom: 0;
-    /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+    /*The margin-bottom property sets the bottom margin of an element./
   }
   /*  End Portfolio */
   /*  Start About */
