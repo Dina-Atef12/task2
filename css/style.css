@@ -385,7 +385,7 @@
     padding-top: var(--section-padding);
     /*The padding-top property sets the top padding (space) of an element.*/
     padding-bottom: calc(var(--section-padding) + 60px);
-    /*Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.*/
+    /*The padding-bottom property sets the bottom padding (space) of an element.*/
   }
   .about .about-content {
     margin-top: 100px;
