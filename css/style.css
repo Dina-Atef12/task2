@@ -416,7 +416,7 @@
   @media (max-width: 991px) {
     .about .about-content .image {
       margin: 0 auto 60px;
-      /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.*/
+      /*The margin property sets the margins for an element*/
     }
   }
   .about .about-content .image::before {
