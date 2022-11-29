@@ -428,7 +428,7 @@
     width: 100px;
     height: calc(100% + 80px);
     top: -40px;
-    /*Specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's 'containing block'.*/
+    /*The top property affects the vertical position of a positioned element.*/
     left: -20px;
     /*Specifies how far an absolutely positioned box's left margin edge is offset to the right of the left edge of the box's 'containing block'.*/
     z-index: -1;
