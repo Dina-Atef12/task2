@@ -535,7 +535,7 @@
   }
   .contact .info .social {
     display: flex;
-    /*Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..*/
+    /*The display property specifies the display behavior (the type of rendering box) of an element.*/
     justify-content: center;
     /* Aligns flex items along the main axis of the current line of the flex container.*/
     margin-top: 20px;
