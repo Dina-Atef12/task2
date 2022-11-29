@@ -572,7 +572,7 @@
   }
   .footer span {
     font-weight: bold;
-    /* Specifies weight of glyphs in the font, their degree of blackness or stroke thickness.*/
+    /*The font-weight property sets how thick or thin characters in text should be displayed.*/
     color: var(--main-color);
   }
   /*  End Footer */ 
