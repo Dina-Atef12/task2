@@ -436,7 +436,7 @@
   }
   .about .about-content .image::after {
     top: -40px;
-    /*Specifies how far an absolutely positioned box's top margin edge is offset below the top edge of the box's 'containing block'.*/
+    /*The top property affects the vertical position of a positioned element.*/
     content: "";
     /*The content property is used with the ::before and ::after pseudo-elements, to insert generated content.*/
     width: 120px;
